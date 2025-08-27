@@ -73,11 +73,11 @@ pip install pandas numpy matplotlib seaborn scikit-learn plotly
 
 ### 2) Run the notebook
 ```bash
-jupyter notebook CustomerSegmentationUsingKMeans.ipynb
+jupyter notebook CustomerSegmentation.ipynb
 ```
 Or with JupyterLab:
 ```bash
-jupyter lab CustomerSegmentationUsingKMeans.ipynb
+jupyter lab CustomerSegmentation.ipynb
 ```
 
 ---
