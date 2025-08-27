@@ -6,10 +6,10 @@ This repository contains a Jupyter notebook that loads the classic **Mall Custom
 ---
 
 ## 🚀 What you get
-- End‑to‑end notebook: `/CustomerSegmentationUsingKMeans.ipynb`
+- End‑to‑end notebook: `/CustomerSegmentation.ipynb`
 - Dataset reference: `Mall_Customers.csv` (public toy dataset)
 - Features used: `Age, Annual Income (k$), Spending Score (1-100)`
-- Algorithm: `K-Means (k = 4)`
+- Algorithm: `K-Means`
 - Model selection aid: `Elbow Method`
 - Visualizations: cluster scatter plots, elbow curve
 
@@ -20,7 +20,7 @@ This repository contains a Jupyter notebook that loads the classic **Mall Custom
 ## 🧱 Project Structure
 ```
 .
-├── CustomerSegmentationUsingKMeans.ipynb
+├── CustomerSegmentation.ipynb
 ├── Mall_Customers.csv                  # expected dataset (put in repo root or update path in notebook)
 └── README.md
 ```
@@ -54,6 +54,11 @@ Typical business‑friendly segment names for this dataset:
 *(Your exact segments may differ; always validate with domain context.)*
 
 ---
+**Cloning the Repository**
+
+```bash
+git clone https://github.com/Prasad-Arugollu/CustomerSegmentation-ML.git
+```
 
 ## 🔧 Setup
 ### 1) Environment
@@ -113,4 +118,3 @@ A: If features are on very different ranges, yes. For `Age`, `Annual Income (k$)
 
 ---
 
-**Last updated:** 2025-08-27
