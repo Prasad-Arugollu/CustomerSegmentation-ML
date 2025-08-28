@@ -109,12 +109,4 @@ Because this is unsupervised, use **internal** validation:
 
 ---
 
-## 🙋 FAQ
-**Q: My elbow plot is ambiguous—how do I choose k?**  
-A: Try 3–8 clusters, inspect **silhouette scores**, and prefer the smallest `k` that yields **clear business separation**.
-
-**Q: Do I need scaling?**  
-A: If features are on very different ranges, yes. For `Age`, `Annual Income (k$)`, and `Spending Score (1–100)`, scaling is optional but worth trying.
-
----
 
